@@ -13,7 +13,7 @@ for z in range(0,1000): #specify number of images to scroll(change 100)
 		#print('centre')
 		x,y = pyautogui.locateCenterOnScreen('instaCheck.png')
 		pyautogui.moveTo(x,y)
-		pyautogui.Click()
+		pyautogui.click()
 		#time.sleep(0.2) 
 		pyautogui.scroll(-700)
 
