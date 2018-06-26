@@ -7,7 +7,7 @@ def checker():
 	l = pyautogui.locateCenterOnScreen('instaCheck.png')
 	if l!=None:
 		pyautogui.moveTo(l[0],l[1])
-		pyautogui.rightClick()
+		pyautogui.Click()
 		pyautogui.scroll(-700)
 	else:
 		pyautogui.scroll(-500)	
